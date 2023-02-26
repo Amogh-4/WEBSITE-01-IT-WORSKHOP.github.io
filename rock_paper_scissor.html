@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Rock paper scissor</title>
+                <link rel="stylesheet" href="styleforrps.css">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+    <body bgcolor="#a28fcf">
+        <div class="topnav">
+            <div class="logo">
+                <img src="logo.png" alt="logo" width="75" height="75">
+            </div>
+            <div class="words">
+                <a style="margin-left: 2cm;"  href="index.html">Home</a>
+                <a style="margin-left: 2cm;" class="active" href="rock_paper_scissor.html">Rock Paper Scissors</a>
+                <a style="margin-left: 2cm;" href="sandls.html">Snakes and Ladders</a>
+                <a style="margin-left: 2cm;" href="diffmaze.html">Pass through the Maze</a>
+                <a style="margin-left: 2cm;" href="tictactoe.html">Tic Tac Toe</a>
+                <a style="margin-left: 2cm;" href="about.html">About Us</a>
+            </div>
+          </div>
+        <div class="rps">
+            <center>
+            <table class="tab">
+                <tr>
+                    <td><button id="01"><img src="rock-removebg-preview.png" id="1" onclick="rock()"></button></td>
+                    <td><img src="" id="rps1"></td>
+                </tr>
+                <tr>
+                    <td><button id="02"><img src="paper-removebg-preview.png" id="2" onclick="paper()"></button></td>
+                    <td><img src="" id="rps2"></td>
+                </tr>
+                <tr>
+                    <td><button id="03"><img src="scissore-removebg-preview.png" id="3" onclick="scissor()"></button></td>
+                    <td><img src="" id="rps3"></td>
+                </tr>
+            </table></center>
+            <div class="popup01" id="popup01">
+                <img src="popupp.png">
+                <h2>Congratulations!!</h2>
+                <p>You Won!!</p>
+                <button type="button" onclick="closePopUp01()">OK</button>
+            </div>
+            <div class="popup02" id="popup02">
+                <img src="My project.png">
+                <h2>Draw</h2>
+                <p>It's a DRAW!!</p>
+                <button type="button" onclick="closePopUp02()">OK</button>
+            </div>
+            <div class="popup03" id="popup03">
+                <h1>(⌣́_⌣̀)</h1>
+                <h2>Better Luck Next Time!</h2>
+                <p>You Lost!!</p>
+                <button type="button" onclick="closePopUp03()">OK</button>
+            </div>
+        </div>
+        <script src="scriptforrps.js">     
+        </script>
+    </body>
+</html>

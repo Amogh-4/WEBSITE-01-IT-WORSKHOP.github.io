@@ -1,0 +1,240 @@
+input{
+    height: 50px;
+    width: 50px;
+}
+td{
+    background-color: #a28fcf;
+    text-align: center;
+    border-width: 0;
+    color: color="#a28fcf";
+    font-weight: 900;
+    
+}
+table{
+    margin-top: 4cm;
+}
+body {
+      padding: 0;
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    .topnav {
+        top: 0%;
+  right: 0%;
+  overflow: hidden;
+  background-color: #6f6986;
+  position: fixed;
+  width: 100%;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #eeeaf5;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #7771a2 ;
+      color: white;
+    }
+    .topnav{
+        display: flex;
+    }
+    .words{
+        margin-top: 13px;
+    }
+    h1{
+        margin-top: 3cm;
+        margin-left: 5cm;
+        color:whitesmoke
+    }
+    .tab{
+        margin-top: 2cm;
+    }
+    .popup{
+width: 400px;
+background: #9453a3;
+border-radius: 20px;
+position: fixed;
+top: 0%;
+left: 50%;
+transform: translate(-50%, -50%) scale(0.1);
+text-align: center;
+padding: 0 30px 30px;
+visibility: hidden;
+transition: transform 0.4s, top 0.4s;
+}
+.popup img{
+width: 100px;
+
+}
+.popup h2{
+font-size: 38px;
+font-weight: 600;
+margin: 30px 0 10px;
+}
+.popup p{
+font-weight: 400;
+}
+.popup button{
+width: 100%;
+margin-top: 50px;
+padding: 10px 0;
+background: #ac3e9f;
+color: whitesmoke;
+border: 0;
+outline: none;
+font-size: 18px;
+border-radius: 100px;
+cursor: pointer;
+box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.open-popup{
+visibility: visible;
+top: 50%;
+transform: translate(-50%, -50%) scale(1);
+
+}
+.open-body{
+background: rgba(59, 16, 83, 0.890);
+background-size: cover; 
+background-blend-mode: darken;
+}
+caption{
+font-weight:900;
+}
+.popup1{
+    width: 400px;
+    background: #9453a3;
+    border-radius: 20px;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.popup1 h2{
+    font-size: 38px;
+    font-weight: 600;
+    margin: 30px 0 10px;
+}
+.popup1 p{
+    font-weight: 400;
+}
+.popup1 button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #ac3e9f;
+    color: whitesmoke;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.open-popup1{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+
+}
+.popup2{
+    width: 400px;
+    background: #9453a3;
+    border-radius: 20px;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.popup2 h2{
+    font-size: 38px;
+    font-weight: 600;
+    margin: 30px 0 10px;
+}
+.popup2 p{
+    font-weight: 400;
+}
+.popup2 button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #ac3e9f;
+    color: whitesmoke;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.open-popup2{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+
+}
+#c1{
+    
+    text-align: center;
+    font-weight: 900;
+    color:rgba(69,30,93,255);
+}
+#c2{
+    
+    text-align: center;
+    font-weight: 900;
+    color:rgba(69,30,93,255);
+}#c3{
+    
+    text-align: center;
+    font-weight: 900;
+    color:rgba(69,30,93,255);
+}#c4{
+    
+    text-align: center;
+    font-weight: 900;
+    color:rgba(69,30,93,255);
+}#c5{
+    
+    text-align: center;
+    font-weight: 900;
+    color:rgba(69,30,93,255);
+}#c6{
+    
+    text-align: center;
+    font-weight: 900;
+    color:rgba(69,30,93,255);
+}#c7{
+
+    text-align: center;
+    font-weight: 900;
+    color:rgba(69,30,93,255);
+}#c8{
+    text-align: center;
+    font-weight: 900;
+    color:rgba(69,30,93,255);
+}#c9{
+    text-align: center;
+    font-weight: 900;
+    color:rgba(69,30,93,255);
+}
+
